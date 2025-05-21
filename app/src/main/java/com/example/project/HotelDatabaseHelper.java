@@ -1,5 +1,6 @@
 package com.example.project;
 
+import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.content.ContentValues;
@@ -19,7 +20,7 @@ public class HotelDatabaseHelper extends SQLiteOpenHelper {
     private static final String COL_DESCRIPTION = "description";
     private static final String COL_ROOM_COUNT = "room_count";
 
-    public HotelDatabaseHelper(MainActivity context) {
+    public HotelDatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
