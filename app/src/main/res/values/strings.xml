@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quản Lý Khách Sạn</string>
+    <string name="add_hotel">Thêm khách sạn</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Huỷ</string>
+    <string name="delete">Xoá</string>
+    <string name="edit">Sửa</string>
+    <string name="details">Chi tiết</string>
+    <string name="hotel_name_hint">Tên khách sạn</string>
+    <string name="hotel_address_hint">Địa chỉ</string>
+    <string name="hotel_description_hint">Mô tả</string>
+    <string name="room_count_hint">Số phòng</string>
+    <string name="delete_confirm">Bạn có chắc chắn muốn xoá khách sạn này?</string>
+</resources>
